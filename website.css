@@ -1,16 +1,16 @@
-.item-a {
+.item-header{
     grid-area: header;
   }
-  .item-b {
+  .item-main {
     grid-area: main;
   }
-  .item-c {
+  .item-skills {
     grid-area: skills;
   }
-  .item-d {
+  .item-projects {
     grid-area: projects;
   }
-  .item-e {
+  .item-contact {
     grid-area: contact;
   }
   
