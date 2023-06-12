@@ -39,7 +39,7 @@ li {
   
   .container {
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-columns: 500px 500px ;
     grid-template-rows: auto;
     grid-template-areas: 
       "header header"
