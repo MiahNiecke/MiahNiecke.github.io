@@ -7,7 +7,8 @@ h1 {
   font-size: 80px
 }
 h2 {
-font-family: monospace
+font-family: monospace;
+font-size: 40px
 }
 p {
   font-family: sans-serif
@@ -37,7 +38,7 @@ li {
   
   .container {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
       "header header"
