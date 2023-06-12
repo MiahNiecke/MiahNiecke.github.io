@@ -50,7 +50,6 @@ li {
     grid-template-areas: 
       "header header header header"
       "main main . skills"
-      "project project . contact"
-      ". . . .";
+      "project project . contact";
   }
 
