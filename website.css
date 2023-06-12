@@ -8,7 +8,7 @@ h1 {
 }
 h2 {
 font-family: monospace;
-font-size: 40px
+font-size: 50px
 }
 p {
   font-family: sans-serif
@@ -39,7 +39,7 @@ li {
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
       "header header"
       "main skillS"
