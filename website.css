@@ -1,10 +1,10 @@
 body {
   text-align: center;
-  background-color: aquamarine;
+  background-color: rgb(205, 249, 234);
 }
 h1 {
   font-family: monospace;
-  font-size: 100px
+  font-size: 200px
 }
 h2 {
 font-family: monospace
@@ -37,11 +37,11 @@ li {
   
   .container {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
       "header header"
       "main skillS"
-      "projects contact  ";
+      "projects contact";
   }
 
