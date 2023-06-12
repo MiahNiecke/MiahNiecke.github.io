@@ -8,15 +8,19 @@ h1 {
 }
 h2 {
 font-family: monospace;
-font-size: 50px
+font-size: 40px
 }
 p {
-  font-family: sans-serif
+  font-family: sans-serif;
+  font-size: 20px
 }
 .silver-text {
 color: rgb(96, 94, 94)
 }
 li {
+  text-align: left;
+}
+.text-align-left  {
   text-align: left;
 }
 
