@@ -20,9 +20,6 @@ color: rgb(96, 94, 94)
 li {
   text-align: left;
 }
-.text-align-left  {
-  text-align: left;
-}
 
 .item-header{
     grid-area: header;
