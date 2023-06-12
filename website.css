@@ -39,11 +39,11 @@ li {
   
   .container {
     display: grid;
-    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: auto;
     grid-template-areas: 
-      "header header header header"
-      "main main skillS skills"
-      "projects projects contact contacts";
+      "header header"
+      "main skills"
+      "projects contacts";
   }
 
