@@ -1,6 +1,9 @@
 body {
   text-align: center;
-  background-color: rgb(205, 249, 234);
+  background-image: url("/images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 h1 {
   font-family: monospace;
@@ -9,6 +12,11 @@ h1 {
 h2 {
 font-family: monospace;
 font-size: 40px
+}
+h3 {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: gray;
 }
 p {
   font-family: sans-serif;
@@ -21,35 +29,47 @@ li {
   text-align: left;
   font-size: 20px
 }
+ul {
+  font-family: sans-serif;
+}
 .align-left {
   text-align: left
 }
 
+.smaller-image {
+  width: 30px;
+  height: auto;
+}
+.background-image {
+  background-image: url("/images/background.jpeg");
+  background-repeat: no-repeat;
+}
+
 .item-header{
   grid-area: header;
-  align-self: center;
 }
 .item-main {
   grid-area: main;
 }
 .item-skills {
   grid-area: skills;
+  align-self: center;
 }
 .item-projects {
   grid-area: projects;
 }
 .item-contact {
   grid-area: contact;
-  align-self: right
+  align-self: end;
 }
   
   .container {
     display: grid;
     grid-column: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
     grid-row: auto;
     grid-template-areas: 
       "header header header header"
       "main main . skills"
       "projects projects . contact";
   }
-
