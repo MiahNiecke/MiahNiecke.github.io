@@ -26,29 +26,29 @@ li {
 }
 
 .item-header{
-    grid-area: header;
-    align-self: centre;
-  }
-  .item-main {
-    grid-area: main;
-  }
-  .item-skills {
-    grid-area: skills;
-  }
-  .item-projects {
-    grid-area: projects;
-  }
-  .item-contact {
-    grid-area: contact;
-    align-self: right;
-  }
+  grid-area: header;
+  align-self: center;
+}
+.item-main {
+  grid-area: main;
+}
+.item-skills {
+  grid-area: skills;
+}
+.item-projects {
+  grid-area: projects;
+}
+.item-contact {
+  grid-area: contact;
+  align-self: right
+}
   
   .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
+    grid-column: 1fr 1fr 1fr 1fr;
+    grid-row: auto;
     grid-template-areas: 
-      "header header header header header"
+      "header header header header"
       "main main . skills"
       "projects projects . contact";
   }
