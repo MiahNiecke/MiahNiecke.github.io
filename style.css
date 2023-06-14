@@ -82,6 +82,7 @@ ul {
   background-color: white;
   border: 2px solid  rgb(228, 228, 228);;
   border-radius: 10px;
+  margin: 40px 0px 20px 40px
 }
 .item-skills {
   grid-area: skills;
@@ -89,12 +90,14 @@ ul {
   background-color: white;
   border: 2px solid  rgb(228, 228, 228);;
   border-radius: 10px;
+  margin-top: 40px;
 }
 .item-projects {
   grid-area: projects;
   background-color: white;
   border: 2px solid  rgb(228, 228, 228);;
   border-radius: 10px;
+  margin: 40px 0px 20px 40px
 }
 .item-contact {
   grid-area: contact;
@@ -102,16 +105,17 @@ ul {
   background-color: white;
   border: 2px solid  rgb(228, 228, 228);;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
   
   .container {
     display: grid;
-    grid-column: repeat(8, 1fr);
+    grid-column: 6;
     grid-gap: 20px;
     grid-row: auto;
     grid-template-areas: 
-      "header header header header header header header header"
-      "main . .  skills skills . . ."
-      "projects . .  contact contact . . ."
-      ". . . . . . . .";
+      "header header header header header header"
+      "main . skills skills . ."
+      "projects . contact contact . ."
+      ". . . . . .";
   }
