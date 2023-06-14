@@ -9,7 +9,7 @@ h1 {
 }
 h2 {
 font-family: monospace;
-font-size: 40px
+font-size: 40px;
 }
 h3 {
   font-family: sans-serif;
@@ -60,6 +60,15 @@ ul {
 .background-image {
   background-image: url("/images/background.jpeg");
   background-repeat: no-repeat;
+}
+.heading-padding {
+  padding: 0px 10px 10px 10px
+}
+.heading-padding-contact {
+  padding: 0px 50px 10px 50px
+}
+.logo-margins {
+  margin-top: 30px
 }
 
 .item-header{
