@@ -142,7 +142,7 @@ ul {
 .body-container {
   grid-area: body;
   display: grid;
-  grid-column: auto auto;
+  grid-column: 2;
   grid-gap: 40px;
   grid-template-areas: 
   "main skills"
