@@ -76,7 +76,7 @@ ul {
 .item-header{
   grid-area: header;
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 6;
   grid-row-start: 1;
   grid-row-end: 2;
   display: flex;
@@ -87,74 +87,80 @@ ul {
 }
 .item-main {
   grid-area: main;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  min-height: 400px;
-  min-width: 700px;
-  align-self: center;
-  background-color: white;
-  border: 2px solid  rgb(228, 228, 228);;
-  border-radius: 10px;
-  margin: 40px 0px 20px 40px
-}
-.item-skills {
-  grid-area: skills;
   grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  min-height: 398px;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  min-height: 250px;
+  max-width: 1275px;
   align-self: center;
   background-color: white;
   border: 2px solid  rgb(228, 228, 228);;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
+
 .item-projects {
   grid-area: projects;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
   min-height: 400px;
-  min-width: 700px;
+  max-width: 1275px;
   background-color: white;
   border: 2px solid  rgb(228, 228, 228);;
   border-radius: 10px;
-  margin: 40px 0px 20px 40px
+  margin-bottom: 50px;
 }
-.item-contact {
-  grid-area: contact;
-  grid-column-start: 2;
-  grid-column-end: 3;
+
+.item-skills {
+  grid-area: skills;
+  grid-column-start: 3;
+  grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 4;
   min-height: 398px;
+  max-width: 500px;
+  align-self: center;
+  background-color: white;
+  border: 2px solid  rgb(228, 228, 228);;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.item-contact {
+  grid-area: contact;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  min-height: 398px;
+  max-width: 500px;
   align-self: end;
   background-color: white;
   border: 2px solid  rgb(228, 228, 228);;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 
 .body-container {
   grid-area: body;
   display: grid;
-  grid-column: 2;
+  grid-column: 1;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 40px;
   grid-template-areas: 
-  "main skills"
-  "projects contact";
+  "main"
+  "projects"
+  "skills"
+  "contact";
 }
 
 .container {
     display: grid;
     grid-template-columns: auto;
     grid-row: auto;
-    min-height: 500px;
-    min-width: 800px;
     grid-template-areas: 
     "header"
     "body";
