@@ -134,6 +134,8 @@ ul {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: auto;
   grid-gap: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
   grid-template-areas: 
   "main"
   "projects"
