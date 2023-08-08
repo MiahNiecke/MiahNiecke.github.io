@@ -145,6 +145,21 @@ ul {
 
 .body-container {
   grid-area: body;
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: 100%;
+  grid-template-columns: auto;
+  grid-gap: 50px;
+  margin: 50px 50px 50px 50px;
+  grid-template-areas:
+    "main"
+    "projects"
+    "skills"
+    "contact";
+}
+
+/*.body-container {
+  grid-area: body;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: auto;
@@ -155,7 +170,7 @@ ul {
     "projects"
     "skills"
     "contact";
-}
+}*/
 
 .container {
   display: flex;
@@ -175,7 +190,7 @@ ul {
     "body";
 }*/
 
-@media screen and (max-width: 700px) {
+/*@media screen and (max-width: 700px) {
   .item-main{
     min-height: none;
   }
@@ -200,5 +215,5 @@ ul {
     grid-template-columns:none;
   }
 
-}
+}*/
 
